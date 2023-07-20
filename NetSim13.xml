@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="feed.xsl"?>
+<interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface https://docs.0install.net/specifications/feed.xsd http://0install.de/schema/desktop-integration/capabilities https://docs.0install.net/specifications/capabilities.xsd" uri="https://drive.proton.me/urls/AAYSQ6EHJC#iJsh4QAI9492" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>NetSim</name>
+  <summary xml:lang="en">NetSim</summary>
+  <feed src="https://drive.proton.me/urls/D717XCK7DG#KDsdoBsNwUAn" />
+  <implementation version="13.19.0.20642" id="sha256new_Z7SIPNW4ZMECSOIRIHOBFXDYSAKJ5VQA5ICODECENLR3NCRZHTOQ">
+    <command name="run" path="Boson NetSim 13\NetSim.exe">
+      <runner interface="https://apps.0install.net/dotnet/framework.xml" command="run-gui" />
+    </command>
+    <command name="NetSim.Restarter" path="Boson NetSim 13\NetSim.Restarter.exe">
+      <runner interface="https://apps.0install.net/dotnet/framework.xml" command="run-gui" />
+    </command>
+    <command name="NetSimSDM" path="Boson NetSim 13\NetSimSDM.exe">
+      <runner interface="https://apps.0install.net/dotnet/framework.xml" command="run-gui" />
+    </command>
+    <command name="NetworkDesigner" path="Boson NetSim 13\NetworkDesigner.exe">
+      <runner interface="https://apps.0install.net/dotnet/framework.xml" command="run-gui" />
+    </command>
+    <command name="SubnetCalculator" path="Boson NetSim 13\SubnetCalculator.exe">
+      <runner interface="https://apps.0install.net/dotnet/framework.xml" command="run-gui" />
+    </command>
+    <manifest-digest sha256new="Z7SIPNW4ZMECSOIRIHOBFXDYSAKJ5VQA5ICODECENLR3NCRZHTOQ" />
+    <archive href="https://drive.proton.me/urls/AAYSQ6EHJC#iJsh4QAI9492" size="19314038" type="application/zip" />
+  </implementation>
+  <entry-point command="run" binary-name="NetSim" />
+  <entry-point command="NetSim.Restarter" binary-name="NetSim.Restarter">
+    <name xml:lang="en">NetSim.Restarter</name>
+    <summary xml:lang="en">NetSim.Restarter</summary>
+  </entry-point>
+  <entry-point command="NetSimSDM" binary-name="NetSimSDM">
+    <name xml:lang="en">NetSimSDM</name>
+    <summary xml:lang="en">NetSimSDM</summary>
+  </entry-point>
+  <entry-point command="NetworkDesigner" binary-name="NetworkDesigner">
+    <name xml:lang="en">Network Designer</name>
+    <summary xml:lang="en">Network Designer</summary>
+  </entry-point>
+  <entry-point command="SubnetCalculator" binary-name="SubnetCalculator">
+    <name xml:lang="en">SubnetCalculator</name>
+    <summary xml:lang="en">SubnetCalculator</summary>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJkuJLKAAoJEPS6U4pV5qJy+wEH/j3kOv6OxCYvCnjZl/I7VaADWWt+wc1cWQzLOQHMgH4B5D4ENtnDYNYvdTzezwBN/wa47pr6hoAlR2fW3hPPD8W6T2Djgb8F3s0JUSJrp47hCrEuIGKUmG6hCTQuJha9b3NTmUZqITzRGzLfewvhEGzRzRM4A1fBCwZgUvOlJZrqLFMod2J9nE0PZu4tKpb5975s1+EnjT4wLqnJjVirzYQypLxBQuScPWXgW3pfS0dM8MD9TP46b+7OPGE2YZ2VLLGoZAUT1xIW4UgXNl3ouwAANtA1Ecq+gZWs7WcW1Qe61n0n749oKj581RL+N2FN9kMb3Jk5DsQl4ahsProk5aI=
+
+-->
